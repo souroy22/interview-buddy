@@ -1,0 +1,9 @@
+.topics-section {
+  display: flex;
+  gap: 40px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100svh;
+}

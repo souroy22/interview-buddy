@@ -1,0 +1,28 @@
+.topic-box {
+  height: 300px;
+  width: 250px;
+  box-shadow: 0 0 10px gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(55 55 55);
+}
+
+.topic-box:hover {
+  transform: translateY(-10px);
+}
+
+.topic-image {
+  width: 80%;
+  height: 60%;
+}
+
+.topic-title {
+  margin-top: 20px;
+  color: whitesmoke;
+  font-size: 25px;
+}
